@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <header>
+        <header className="app__header">
           <Menubar />
         </header>
         <main>

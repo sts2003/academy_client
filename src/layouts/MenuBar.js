@@ -12,16 +12,16 @@ class Menubar extends React.Component {
         <div className="header__menus">
           <ul>
             <li>
-              <NavLink to="/about">ACSC01</NavLink>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <NavLink to="/info">ACSC02</NavLink>
+              <NavLink to="/info">Info</NavLink>
             </li>
             <li>
-              <NavLink to="/notice">ACSC03</NavLink>
+              <NavLink to="/notice">Notice</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">ACSC04</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>
