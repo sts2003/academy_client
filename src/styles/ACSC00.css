@@ -38,3 +38,131 @@
   margin-left: 46%;
   margin-top: 40%;
 }
+
+.ACSC00 .ACSC00__contents {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #777;
+}
+
+.ACSC00 .ACSC00__contents .ACSC00__contents__btn {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+
+  width: 220px;
+  height: 40px;
+  border: 1px solid #eee;
+  color: #777;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 3px 3px 3px #eee;
+}
+
+.ACSC00 .ACSC00__contents .ACSC00__contents__btn.active {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+
+  width: 220px;
+  height: 40px;
+  border: 1px solid #eee;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #0b0b0b;
+  margin: 10px;
+  box-shadow: 3px 3px 3px #eee;
+}
+
+@media (max-width: 1024px) {
+  .ACSC00__bg__arrow svg {
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 60%;
+  }
+}
+
+@media (max-width: 860px) {
+  .ACSC00__bg__arrow svg {
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .ACSC00__bg__arrow svg {
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 110%;
+  }
+
+  .ACSC00__bg__desc h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 5px #0b0b0b;
+  }
+  .ACSC00__bg__desc p {
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-shadow: 5px 5px 5px #0b0b0b;
+    font-style: italic;
+  }
+}
+
+@media (max-width: 420px) {
+  .ACSC00__bg__arrow svg {
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 130%;
+  }
+
+  .ACSC00__bg__desc h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 5px #0b0b0b;
+  }
+  .ACSC00__bg__desc p {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-shadow: 5px 5px 5px #0b0b0b;
+    font-style: italic;
+  }
+}
+
+@media (max-width: 300px) {
+  .ACSC00__bg__arrow svg {
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 150%;
+  }
+
+  .ACSC00__bg__desc h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 5px #0b0b0b;
+  }
+  .ACSC00__bg__desc p {
+    font-size: 10px;
+    margin-bottom: 5px;
+    text-shadow: 5px 5px 5px #0b0b0b;
+    font-style: italic;
+  }
+}
